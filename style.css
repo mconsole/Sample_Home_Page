@@ -7,22 +7,33 @@ ul {
 .container {
     width: 100%;
 }
-
-
-/* Navigation Bar */
-
-nav div {
-    text-align: center;
+.row {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
 }
-
+.panel-group {
+  padding: 0;
+  margin: 0;
+}
 .equalSpace {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
 }
 
-nav div li {
+/* Navigation Bar */
+.navButton {
+  margin-top: 1%;
+}
+.navbar {
+    border-radius: 0
+}
+nav ul li {
     text-align: left;
+}
+nav ul li p {
+  font-size: 16px;
 }
 
 nav img {
@@ -30,30 +41,14 @@ nav img {
 }
 
 #navPad {
-    margin: 0.5%;
+    padding: 3% 0 3% 0;
 }
 
-.colorWhite {
-    color: white;
+nav a p {
+    font-size: 12px;
 }
-
-.colorWhite:hover {
-    color: #2ecc71;
-}
-
-nav a {
-    display: inline-block;
-    margin-left: 1%;
-}
-
-#navLinks a {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 1%;
-}
-nav input {
-  margin-bottom: 1%;
+.panel-footer {
+  text-align: left;
 }
 
 /* Slideshow */
@@ -62,7 +57,7 @@ nav input {
     position: relative;
     list-style: none;
     overflow: hidden;
-    width: 96%;
+    width: 100%;
     padding: 0;
     margin: 0 auto;
 }
@@ -90,19 +85,22 @@ nav input {
     margin: 0 auto;
 }
 
+
 /* Middle Text and Button Area */
+
 .message {
     position: relative;
     text-align: center;
     margin: 4% auto;
 }
+
 .message p {
-  font-size: 24px;
+    font-size: 18px;
 }
 
 .message button {
-    font-size: 18px;
-    margin: 0.25%;
+    font-size: 16px;
+    margin: 0 0 2% 0;
 }
 
 #connect {
@@ -110,54 +108,46 @@ nav input {
 }
 
 #slogan {
-    font-size: 32px;
+    font-size: 24px;
 }
+
 
 /* Bottom button and picture area */
-.bottomBlocks {
-    margin-bottom;
-    5%;
-}
 
 .bottomBlocks img {
-    width: 70%;
+    width: 100%;
     margin-bottom: 3%;
     border: 5px solid #3498db;
     border-radius: 3px;
 }
 
 .infoBlock {
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
     text-align: center;
     padding: 0;
-    margin: 0;
 }
 
 .infoBlock p {
-    font-size: 24px;
-    width: 60%;
+    font-size: 18px;
     margin: 0 auto;
     margin-bottom: 3%;
-    line-height: 26px;
 }
 
 .infoBlock button {
-    width: 20%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
+
 /* Footer and Legal Information */
+
 .footer {
     text-align: center;
     background-color: #3498db;
-    width: 100%;
     color: #ecf0f1;
     margin-top: 5%;
 }
 
 .footer p {
     font-size: 10px;
-    text-align: center;
-    margin-top: 10px;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Browse Orgs</title>
+        <title>Home Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Bootstrap -->
@@ -20,123 +20,157 @@
         <!-- Start of navigation bar -->
         <nav class="navbar navbar-inverse" role="navigation">
             <div id="navPad" class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-2 .hidden-sm">
+                <div class="col-xs-12">
                     <img class="img-responsive" src=".\Images\goyt-brand.png" alt="GOYT Logo">
                 </div>
-                <div id="navLinks" class="col-md-5 equalSpace collapse">
-                    <a class="navbar-link" href="#">
-                        <p class="colorWhite">Home</p>
-                    </a>
-                    <a class="navbar-link" href="#">
-                        <p class="colorWhite">Learn about GOYT</p>
-                    </a>
-                    <a class="navbar-link" href="#">
-                        <p class="colorWhite">Browse Youth Programs</p>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <form role="search" class="navbar-form">
-                        <ul>
-                            <li>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Username" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" placeholder="Password" class="form-control">
-                                </div>
-                            </li>
-                            <li>
-                                <button class="btn btn-primary" type="submit">Login</button>
-                                <a class="navbar-link" href="#">
-                                    <p class="colorWhite">Forgot Password?</p>
-                                </a>
-                            </li>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container">
-                <!--Slideshow-->
                 <div class="row">
-                    <ul class="rslides">
-                        <li><img src=".\Images\1-group.jpg">
-                            <li><img src=".\Images\1-male.jpg">
-                            <li><img src=".\Images\1-two-kids.jpg">
-                            <li><img src=".\Images\2-male.jpg">
-                            <li><img src=".\Images\3-group.jpg">
-                            <li><img src=".\Images\4-group.jpg">
-                        </ul>
+                    <div class="col-xs-12 navButton">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#browseList">Browse</a>
+                                    </h4>
+                                </div>
+                                <div id="browseList" class="panel-collapse collapse">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Home</p>
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Learn about GOYT</p>
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Browse Youth Programs</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <!-- Middle Text and Button Area -->
-                    <div id="middleText" class="row message">
-                        <div class="col-md-12">
-                            <p id="slogan">Find.<span id="connect">
-                                    Connect.</span>
-                                Manage.
-                            </div>
-                            <div class="col-md-12">
-                                <p>Sign up and get started today! It's Free!
+                    <div class="col-xs-12 navButton">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#loginList">Login</a>
+                                    </h4>
                                 </div>
-                                <div class="row">
-                                    <button class="btn btn-info">Sign-up / Login</button>
-                                    <button class="btn btn-warning">Browse Youth Orgs.</button>
+                                <div id="loginList" class="panel-collapse collapse">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><input type="text" placeholder="Username" class="form-control"/></li>
+                                        <li class="list-group-item"><input type="password" placeholder="Password" class="form-control"/></li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <button class="btn btn-primary">Login</button>
+                                        <a class="navbar-link" href="#">Forgot Password?</a>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-                            <!-- Lower Image and Button Information Area -->
-                            <div class="bottomBlocks col-md-12">
-                                <div class="infoBlock col-md-4">
-                                    <ul class="noBullet">
-                                        <li><img src=".\Images\teacher.jpg">
-                                        <li>
-                                            <p>Youth Organizations
-                                            <li>
-                                                <button class="btn btn-info">Sign Up</button>
-                                        </ul>
+        <div class="container">
+
+            <!--Slideshow-->
+            <div class="row">
+                <ul class="rslides">
+                    <li><img src=".\Images\1-group.jpg">
+                    <li><img src=".\Images\1-male.jpg">
+                    <li><img src=".\Images\1-two-kids.jpg">
+                    <li><img src=".\Images\2-male.jpg">
+                    <li><img src=".\Images\3-group.jpg">
+                    <li><img src=".\Images\4-group.jpg">
+                </ul>
+            </div>
+
+            <!-- Middle Text and Button Area -->
+            <div id="middleText" class="row message">
+                <div class="col-md-12">
+                    <p id="slogan">Find.<span id="connect">
+                            Connect.</span>
+                        Manage.
+                    </div>
+                    <div class="col-md-12">
+                        <p>Sign up and get started today! It's Free!
+                        </div>
+                        <div class="row">
+                            <div class="equalSpace">
+                                <button class="btn btn-info col-xs-10">Sign-up / Login</button>
+                            </div>
+                            <div class="equalSpace">
+                                <button class="btn btn-warning col-xs-10">Browse Youth Orgs.</button>
+                            </div>
+                        </div>
+
+                        <!-- Lower Image and Button Information Area -->
+                        <div class="bottomBlocks col-xs-12">
+                            <div class="infoBlock row">
+                                <div class="col-xs-12">
+                                    <img src=".\Images\teacher.jpg">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p>Youth Organizations
                                     </div>
-                                    <div class="infoBlock col-md-4">
-                                        <ul class="noBullet">
-                                            <li><img src=".\Images\baker.jpg">
-                                            <li>
-                                                <p>Everyday Individual/Businesses "Youth Supporters"
-                                                <li>
-                                                    <button class="btn btn-info">Sign Up</button>
-                                            </ul>
-                                        </div>
-                                        <div class="infoBlock col-md-4">
-                                            <ul class="noBullet">
-                                                <li><img src=".\Images\bedtime-story.jpg">
-                                                <li>
-                                                    <p>Parents or Young Adults
-                                                    <li>
-                                                        <button class="btn btn-info">Sign Up</button>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                    <div class="col-xs-12">
+                                        <button class="btn btn-info">Sign Up</button>
                                     </div>
-
-                                    <!-- Footer area containing legal information -->
-                                    <div class="footer col-md-12">
-                                        <p>&copy; 2016 GOYT All Rights reserved. Confidential and Proprietary information of Get Our Youth There, Inc.
+                                </div>
+                                <div class="infoBlock row">
+                                    <div class="col-xs-12">
+                                        <img src=".\Images\baker.jpg">
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p>Everyday Individual/Businesses "Youth Supporters"
                                         </div>
+                                        <div class="col-xs-12">
+                                            <button class="btn btn-info">Sign Up</button>
+                                        </div>
+                                </ul>
+                            </div>
+                            <div class="infoBlock row">
+                                <div class="col-xs-12">
+                                    <img src=".\Images\bedtime-story.jpg">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p>Parents or Young Adults
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <button class="btn btn-info">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
 
-                                        <!-- Primary javascript file -->
-                                        <script src="script.js"></script>
+                        <!-- Footer area containing legal information -->
+                        <div class="footer">
+                            <p>&copy; 2016 GOYT All Rights reserved. Confidential and Proprietary information of Get Our Youth There, Inc.
+                            </div>
 
-                                        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                                        <script src=".\Assets\jquery\dist\jquery.min.js"></script>
+                            <!-- Primary javascript file -->
+                            <script src="script.js"></script>
 
-                                        <!-- Flat UI to be used in conjunction with Bootstrap -->
-                                        <script src=".\Assets\Flat-UI-master\dist\js\flat-ui.min.js"></script>
+                            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                            <script src=".\Assets\jquery\dist\jquery.min.js"></script>
 
-                                        <!-- Include all compiled plugins (below), or include individual files as needed -->
-                                        <script src=".Assets\Bootstrap\bootstrap.min.js"></script>
+                            <!-- Flat UI to be used in conjunction with Bootstrap -->
+                            <script src=".\Assets\Flat-UI-master\dist\js\flat-ui.min.js"></script>
 
-                                        <!-- Use of "Responsive Slides" open source project for easy slideshow creation -->
-                                        <script src=".\Assets\Responsive Slides\responsiveslides.min.js"></script>
-                                    </body>
+                            <!-- Include all compiled plugins (below), or include individual files as needed -->
+                            <script src=".Assets\Bootstrap\bootstrap.min.js"></script>
 
-                                </html>
+                            <!-- Use of "Responsive Slides" open source project for easy slideshow creation -->
+                            <script src=".\Assets\Responsive Slides\responsiveslides.min.js"></script>
+                        </body>
+
+                    </html>
