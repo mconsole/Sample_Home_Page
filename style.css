@@ -167,7 +167,7 @@ nav a p {
 
 /* Responsive design for 768px screens */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     /* Middle Text and Button Area */
     .message p {
         font-size: 24px;
@@ -192,4 +192,10 @@ nav a p {
     .footer p {
         font-size: 16px;
     }
+}
+
+@media (min-width: 1024px) {
+#signupBtn {
+  float: right;
+}
 }
