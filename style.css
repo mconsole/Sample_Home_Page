@@ -193,9 +193,3 @@ nav a p {
         font-size: 16px;
     }
 }
-
-@media (min-width: 1024px) {
-#signupBtn {
-  float: right;
-}
-}
