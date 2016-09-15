@@ -1,3 +1,6 @@
+/* Site was built with a mobile first design scheme and the baseline css is for screens up to 768px */
+
+
 /* General Styling */
 
 ul {
@@ -7,33 +10,41 @@ ul {
 .container {
     width: 100%;
 }
+
 .row {
-  text-align: center;
-  align-items: center;
-  margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
+
 .panel-group {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .equalSpace {
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
 }
 
+
 /* Navigation Bar */
+
 .navButton {
-  margin-top: 1%;
+    margin-top: 1%;
 }
+
 .navbar {
     border-radius: 0
 }
+
 nav ul li {
     text-align: left;
 }
+
 nav ul li p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 nav img {
@@ -47,9 +58,11 @@ nav img {
 nav a p {
     font-size: 12px;
 }
+
 .panel-footer {
-  text-align: left;
+    text-align: left;
 }
+
 
 /* Slideshow */
 
@@ -138,7 +151,6 @@ nav a p {
 }
 
 
-
 /* Footer and Legal Information */
 
 .footer {
@@ -150,4 +162,34 @@ nav a p {
 
 .footer p {
     font-size: 10px;
+}
+
+
+/* Responsive design for 768px screens */
+
+@media (max-width: 768px) {
+    /* Middle Text and Button Area */
+    .message p {
+        font-size: 24px;
+    }
+    .message button {
+        font-size: 24px;
+    }
+    #slogan {
+        font-size: 32px;
+    }
+    /* Bottom button and picture area */
+    .message p {
+        font-size: 24px;
+    }
+    .infoBlock button {
+        font-size: 24px;
+    }
+    .infoBlock p {
+        font-size: 24px;
+    }
+    /* Footer and Legal Information */
+    .footer p {
+        font-size: 16px;
+    }
 }
