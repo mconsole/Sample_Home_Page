@@ -1,0 +1,204 @@
+/* Site was built with a mobile first design scheme and the baseline css is for screens up to 768px */
+
+
+/* General Styling */
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.panel-group {
+    padding: 0;
+    margin: 0;
+}
+
+.equalSpace {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+
+/* Navigation Bar */
+
+.navButton {
+    margin-top: 1%;
+}
+
+.navbar {
+    border-radius: 0
+}
+
+nav ul li {
+    text-align: left;
+}
+
+nav ul li p {
+    font-size: 16px;
+}
+
+nav img {
+    background: white;
+}
+
+#navPad {
+    padding: 3% 0 3% 0;
+}
+
+nav a p {
+    font-size: 12px;
+}
+
+.panel-footer {
+    text-align: left;
+}
+
+
+/* Slideshow */
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border: 0;
+    margin: 0 auto;
+}
+
+
+/* Middle Text and Button Area */
+
+.message {
+    position: relative;
+    text-align: center;
+    margin: 4% auto;
+}
+
+.message p {
+    font-size: 18px;
+}
+
+.message button {
+    font-size: 16px;
+    margin: 0 0 2% 0;
+}
+
+#connect {
+    color: #f1c40f;
+}
+
+#slogan {
+    font-size: 24px;
+}
+
+
+/* Bottom button and picture area */
+
+.bottomBlocks img {
+    width: 100%;
+    margin-bottom: 3%;
+    border: 5px solid #3498db;
+    border-radius: 3px;
+}
+
+.infoBlock {
+    margin: 5% auto 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.infoBlock p {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+.infoBlock button {
+    font-size: 16px;
+}
+
+
+/* Footer and Legal Information */
+
+.footer {
+    text-align: center;
+    background-color: #3498db;
+    color: #ecf0f1;
+    margin-top: 5%;
+}
+
+.footer p {
+    font-size: 10px;
+}
+
+
+/* Responsive design for 768px screens */
+
+@media (min-width: 768px) {
+    /* Middle Text and Button Area */
+    .message p {
+        font-size: 24px;
+    }
+    .message button {
+        font-size: 24px;
+    }
+    #slogan {
+        font-size: 32px;
+    }
+    /* Bottom button and picture area */
+    .message p {
+        font-size: 24px;
+    }
+    .infoBlock button {
+        font-size: 24px;
+    }
+    .infoBlock p {
+        font-size: 24px;
+    }
+    /* Footer and Legal Information */
+    .footer p {
+        font-size: 16px;
+    }
+    nav img {
+      width: 60%;
+      margin: 0 auto;
+    }
+    #imgDiv {
+      background: white;
+      width: 100%;
+      margin: 0 auto;
+    }
+}

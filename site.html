@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href=".\Assets\Bootstrap\bootstrap.min.css">
+
+        <!-- Flat UI -->
+        <link rel="stylesheet" href=".\Assets\Flat-UI-master\dist\css\flat-ui.css">
+
+        <!-- Primary css file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Start of navigation bar -->
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div id="navPad" class="row">
+                <div class="col-xs-12">
+                  <div id="imgDiv">
+                    <img class="img-responsive" src=".\Images\goyt-brand.png" alt="GOYT Logo">
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 navButton">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#browseList">Browse</a>
+                                    </h4>
+                                </div>
+                                <div id="browseList" class="panel-collapse collapse">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Home</p>
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Learn about GOYT</p>
+                                            </a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a class="navbar-link" href="#">
+                                                <p>Browse Youth Programs</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 navButton">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" href="#loginList">Login</a>
+                                    </h4>
+                                </div>
+                                <div id="loginList" class="panel-collapse collapse">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><input type="text" placeholder="Username" class="form-control"/></li>
+                                        <li class="list-group-item"><input type="password" placeholder="Password" class="form-control"/></li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <button class="btn btn-primary">Login</button>
+                                        <a class="navbar-link" href="#">Forgot Password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <!--Slideshow-->
+            <div class="row">
+                <ul class="rslides">
+                    <li><img src=".\Images\1-group.jpg">
+                    <li><img src=".\Images\1-male.jpg">
+                    <li><img src=".\Images\1-two-kids.jpg">
+                    <li><img src=".\Images\2-male.jpg">
+                    <li><img src=".\Images\3-group.jpg">
+                    <li><img src=".\Images\4-group.jpg">
+                </ul>
+            </div>
+
+            <!-- Middle Text and Button Area -->
+            <div id="middleText" class="row message">
+                <div class="col-xs-12">
+                    <p id="slogan">Find.<span id="connect">
+                            Connect.</span>
+                        Manage.
+                    </div>
+                    <div class="col-md-12">
+                        <p>Sign up and get started today! It's Free!
+                        </div>
+                        <div class="col-xs-12">
+                          <div class="col-md-2"></div>
+                            <div class="equalSpace col-md-4">
+                                <button class="btn btn-info col-xs-10">Sign-up / Login</button>
+                            </div>
+                            <div class="equalSpace col-md-4">
+                                <button class="btn btn-warning col-xs-10">Browse Youth Orgs.</button>
+                            </div>
+                        </div>
+
+                        <!-- Lower Image and Button Information Area -->
+                        <div class="bottomBlocks col-xs-12">
+                            <div class="infoBlock col-xs-12 col-md-4">
+                                <div class="col-xs-12">
+                                    <img src=".\Images\teacher.jpg">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p>Youth Organizations
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <button class="btn btn-info">Sign Up</button>
+                                    </div>
+                                </div>
+                                <div class="infoBlock col-xs-12 col-md-4">
+                                    <div class="col-xs-12">
+                                        <img src=".\Images\baker.jpg">
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <p>Everyday Individual/Businesses "Youth Supporters"
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <button class="btn btn-info">Sign Up</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="infoBlock col-xs-12 col-md-4">
+                                        <div class="col-xs-12">
+                                            <img src=".\Images\bedtime-story.jpg">
+                                        </div>
+                                        <div class="col-xs-12">
+                                            <p>Parents or Young Adults
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <button class="btn btn-info">Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer area containing legal information -->
+                            <div class="footer">
+                                <p>&copy; 2016 GOYT All Rights reserved. Confidential and Proprietary information of Get Our Youth There, Inc.
+                                </div>
+
+                                <!-- Primary javascript file -->
+                                <script src="script.js"></script>
+
+                                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                                <script src=".\Assets\jquery\dist\jquery.min.js"></script>
+
+                                <!-- Flat UI to be used in conjunction with Bootstrap -->
+                                <script src=".\Assets\Flat-UI-master\dist\js\flat-ui.min.js"></script>
+
+                                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                                <script src=".Assets\Bootstrap\bootstrap.min.js"></script>
+
+                                <!-- Use of "Responsive Slides" open source project for easy slideshow creation -->
+                                <script src=".\Assets\Responsive Slides\responsiveslides.min.js"></script>
+                            </body>
+
+                        </html>
