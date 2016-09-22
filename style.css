@@ -192,4 +192,13 @@ nav a p {
     .footer p {
         font-size: 16px;
     }
+    nav img {
+      width: 60%;
+      margin: 0 auto;
+    }
+    #imgDiv {
+      background: white;
+      width: 100%;
+      margin: 0 auto;
+    }
 }
